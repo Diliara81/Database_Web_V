@@ -1,0 +1,13 @@
+# Ignore all
+*
+
+#unignore the following:
+!.gitignore
+
+!*my-docker-webapp/
+
+!*Dockerfile
+!*.html
+
+
+
