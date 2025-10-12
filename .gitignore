@@ -10,7 +10,7 @@
 !*Dockerfile
 !*.html
 !*.txt
-
-
+!*.py
+!*.json
 
 
