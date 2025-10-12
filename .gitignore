@@ -5,9 +5,12 @@
 !.gitignore
 
 !*my-docker-webapp/
+!*Project2/
 
 !*Dockerfile
 !*.html
+!*.txt
+
 
 
 
