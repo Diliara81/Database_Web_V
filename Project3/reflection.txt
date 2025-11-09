@@ -1,3 +1,9 @@
 The form had the DELETE method, and this method is not supported by html forms; therefore, 
 I changed the DELETE method to POST method, which is recognized by browsers and it also sends 
 information securely through the request body instead of the URL (GET method).
+
+The password field was hidden using the class ".hidden-password", so it was not visible but 
+still present in the page, so this is not really secure. I fixed by adding "type=pasword", 
+that way users can see the password field and their input is marked when typing. I also added 
+the "required" attribute to make sure the password field is not empty.
+
