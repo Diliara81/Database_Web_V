@@ -1,0 +1,3 @@
+The form had the DELETE method, and this method is not supported by html forms; therefore, 
+I changed the DELETE method to POST method, which is recognized by browsers and it also sends 
+information securely through the request body instead of the URL (GET method).
