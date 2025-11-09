@@ -18,3 +18,7 @@ I have added a 'fieldset' and 'legend' to provide better appeareance and structu
 
 If this project were a live production form, I would add server-side validation, input sanitization. HTTPS encryption, and error loging to protect data beyond client side validation. The main goal is to guarantee the integrity, confidentiality and reliability of data, and also guarantee a friendly user experience, all while we prevent errors and vulnerabilities.
 
+
+✍️ Ethical Integrity Declaration:
+I, Gretchen Albornoz, affirm that all work submitted in this case study is my own. I have not used AI tools, AI-generated text, or AI-based writing assistants (such as ChatGPT, Gemini, Grammarly AI, etc.) in the creation of this assignment. I understand that using AI tools for this project violates the spirit of ethical learning and may result in academic consequences.
+Signed: GA     Date: 11/8/2025
