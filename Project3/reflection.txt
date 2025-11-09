@@ -15,3 +15,5 @@ unrealistic values. The email field is type="email" and 'required' to ensure a v
 like “name@example.com”. The message field includes 'required' and maxlength="200" 
 to keep the text short and meaningful. With these updates, I keep the form safer, cleaner, and also 
 more user-friendly.
+
+I have added a 'patern in the email field to check a valid structure and 'maxlength=254' to keep the standard for email addressses. With these improvement I prevent fake, incomplete, or malformed emails and ensure users provide proper email format.
