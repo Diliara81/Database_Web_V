@@ -27,6 +27,14 @@ When I was looking at the form request in the Network tab, in the Payload, I rea
 
 If this project were a live production form, I would add server-side validation, input sanitization. HTTPS encryption, and error loging to protect data beyond client side validation. The main goal is to guarantee the integrity, confidentiality and reliability of data, and also guarantee a friendly user experience, all while we prevent errors and vulnerabilities.
 
+Although my form works well and validates everything in the browser, I know that users can still try skipping those rules if they have malicious intensions. In real projects, it is a good practice to use server-side and client side validations to keep the form functional, user friendly, and safe. 
+
+Even though my form uses client-side validation to prevent empty or invalid inputs, this doesn’t make it completely secure. The browser only controls what happens on the user’s screen, but it can’t stop someone from editing the form data or sending their own custom request directly to the server. For example, a user could use the browser’s DevTools or another tool to change the data before submitting it.
+
+Real web applications also include server-side validation, which happens after the data is received. The backend checks again if the information is valid, safe, and complete before saving or using it. This second layer of protection helps prevent security risks like code injection or XSS attacks, and makes sure no harmful data reaches the database.
+
+To me, this idea reinforces how client and server validation work together. I think it’s important to get used to applying both approaches, even in small projects like this one, because it builds good habits for when working with real users and sensitive information.
+
 
 ✍️ Ethical Integrity Declaration:
 I, Gretchen Albornoz, affirm that all work submitted in this case study is my own. I have not used AI tools, AI-generated text, or AI-based writing assistants (such as ChatGPT, Gemini, Grammarly AI, etc.) in the creation of this assignment. I understand that using AI tools for this project violates the spirit of ethical learning and may result in academic consequences.
