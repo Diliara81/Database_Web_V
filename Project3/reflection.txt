@@ -20,6 +20,9 @@ Previously, I had added an event listener to display an alert in the browser whe
 
 I have added a 'fieldset' and 'legend' to provide better appeareance and structure, and improve accesibility. This way the form is easy to read and understand, and in general, it looks more professional. 
 
+When I submitted the form, I inspected the network and all static files such as CSS, fonts, images, returned a 200 status code, which means they loaded correctly. However, the search request returned a 404 code (Not Found) response. This response happens because there is not backend endpoint here in this project. 
+When I was looking at the form request in the Network tab, in the Payload, I realized that all the information I typed, like the username, password, email, and message, could actually be seen in the Payload. That made me think about how, in a real website, this data could be intercepted if it wasn’t protected. In this project it’s local, so it’s not going anywhere, but on a real website the data travels through the internet. If the site used only HTTP, anyone with access to the network could technically see that information. The way to protect it is by using HTTPS, because this is the way to encrypt everything before it leaves the browser, so even if someone tried to read it, they would just see random characters. 
+
 If this project were a live production form, I would add server-side validation, input sanitization. HTTPS encryption, and error loging to protect data beyond client side validation. The main goal is to guarantee the integrity, confidentiality and reliability of data, and also guarantee a friendly user experience, all while we prevent errors and vulnerabilities.
 
 
