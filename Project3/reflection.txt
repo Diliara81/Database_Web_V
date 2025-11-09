@@ -7,3 +7,11 @@ still present in the page, so this is not really secure. I fixed by adding "type
 that way users can see the password field and their input is marked when typing. I also added 
 the "required" attribute to make sure the password field is not empty.
 
+I added validation rules to each field to prevent empty or nonsense data. The username field 
+now uses 'required', 'minlength', 'maxlength'. Also, I added 'pattern' so it only accepts letters, 
+numbers, and dashes. The password field is now type="password" with required and minlength="8" 
+to make it hidden and strong. The age field uses type="number" with limits from 1 to 120 to avoid 
+unrealistic values. The email field is type="email" and 'required' to ensure a valid format 
+like “name@example.com”. The message field includes 'required' and maxlength="200" 
+to keep the text short and meaningful. With these updates, I keep the form safer, cleaner, and also 
+more user-friendly.
