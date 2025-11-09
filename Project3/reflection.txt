@@ -17,3 +17,5 @@ to keep the text short and meaningful. With these updates, I keep the form safer
 more user-friendly.
 
 I have added a 'patern in the email field to check a valid structure and 'maxlength=254' to keep the standard for email addressses. With these improvement I prevent fake, incomplete, or malformed emails and ensure users provide proper email format.
+
+All labels and input names match correctly, so there is no need to change or correct anything here. Labels and input names must match to ensure accurate data submission and proper user accesibility. With the 'for' and 'id' user can focus on the right field, and the name attribute is for the server to recognize values correctly. Placeholders are give users hints about what information they must type in each field; these feature and 'autocomplete' make the form more user friendly. 
