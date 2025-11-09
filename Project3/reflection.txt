@@ -12,6 +12,8 @@ All labels and input names match correctly, so there is no need to change or cor
 
 All input fields in the form have 'types' to improve validation. For example, 'type=number' is used for the age field to ensure the browser accepts only numeric values, no texts; this way we can avoid data errors and user experience is better.
 
+I also considered using a 'pattern' to block characters like '<' and '>', which are used to create HTML; this action reduce the risk of XSS attacks. Although this project does not have a server side, it seems to me a good practice to start getting used to for future projects, or if I decide to update and implement this one.
+
 I modified the CSS file (styles.css) to ensure that input fields fit inside the form container; this improves the visual user experience.
 
 I used the ':invalid' and ':valid' selectors to give the form a red border (if input do not meet requirements) or green border (if input meet requirements). Then, I modified the ':invalid' selector rules by adding ':not(:Placeholder-shown); this rule prevents fields form showing red borders at the beginning, and only alert users after typing info to prevent and avoid confusion. 

@@ -36,7 +36,8 @@
                     pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" autocomplete="email" placeholder="name@example.com" />
 
                 <label for="message">Message (10 words or less):</label>
-                <textarea id="message" name="message" required maxlength="200" placeholder="Short message"></textarea>
+                <textarea id="message" name="message" required maxlength="200" pattern="^[^&lt;&gt;]*$"
+                    placeholder="Short message"></textarea>
 
                 <p id="message-error" style="color:red; font-size:0.9em; margin-top:4px;"></p>
 
