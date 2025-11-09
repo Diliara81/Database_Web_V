@@ -12,4 +12,7 @@ All labels and input names match correctly, so there is no need to change or cor
 
 All input fields in the form have 'types' to improve validation. For example, 'type=number' is used for the age field to ensure the browser accepts only numeric values, no texts; this way we can avoid data errors and user experience is better.
 
+I modified the CSS file (styles.css) to ensure that input fields fit inside the form container; this improves the visual user experience.
+
 If this project were a live production form, I would add server-side validation, input sanitization. HTTPS encryption, and error loging to protect data beyond client side validation. The main goal is to guarantee the integrity, confidentiality and reliability of data, and also guarantee a friendly user experience, all while we prevent errors and vulnerabilities.
+
