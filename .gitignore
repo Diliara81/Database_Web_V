@@ -6,9 +6,11 @@
 
 !*my-docker-webapp/
 !*Project2/
+!*Project3/
 
 !*Dockerfile
 !*.html
+!*css
 !*.txt
 !*.py
 !*.json
