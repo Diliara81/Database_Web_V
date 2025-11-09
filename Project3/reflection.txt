@@ -1,18 +1,8 @@
-The form had the DELETE method, and this method is not supported by html forms; therefore, 
-I changed the DELETE method to POST method, which is recognized by browsers and it also sends 
-information securely through the request body instead of the URL (GET method).
+The form had the DELETE method, and this method is not supported by html forms; therefore, I changed the DELETE method to POST method, which is recognized by browsers and it also sendsinformation securely through the request body instead of the URL (GET method).
 
-The password field was hidden using the class ".hidden-password", so it was not visible but 
-still present in the page, so this is not really secure. I fixed by adding "type=pasword", 
-that way users can see the password field and their input is marked when typing. I also added 
-the "required" attribute to make sure the password field is not empty.
+The password field was hidden using the class ".hidden-password", so it was not visible but still present in the page, so this is not really secure. I fixed by adding "type=pasword", that way users can see the password field and their input is marked when typing. I also added the "required" attribute to make sure the password field is not empty.
 
-I added validation rules to each field to prevent empty or nonsense data. The username field 
-now uses 'required', 'minlength', 'maxlength'. Also, I added 'pattern' so it only accepts letters, 
-numbers, and dashes. The password field is now type="password" with required and minlength="8" 
-to make it hidden and strong. The age field uses type="number" with limits from 1 to 120 to avoid 
-unrealistic values. The email field is type="email" and 'required' to ensure a valid format 
-like “name@example.com”. The message field includes 'required' and maxlength="200" 
+I added validation rules to each field to prevent empty or nonsense data. The username field now uses 'required', 'minlength', 'maxlength'. Also, I added 'pattern' so it only accepts letters, numbers, and dashes. The password field is now type="password" with required and minlength="8" to make it hidden and strong. The age field uses type="number" with limits from 1 to 120 to avoid unrealistic values. The email field is type="email" and 'required' to ensure a valid format like “name@example.com”. The message field includes 'required' and maxlength="200" 
 to keep the text short and meaningful. With these updates, I keep the form safer, cleaner, and also 
 more user-friendly.
 
@@ -21,3 +11,5 @@ I have added a 'patern in the email field to check a valid structure and 'maxlen
 All labels and input names match correctly, so there is no need to change or correct anything here. Labels and input names must match to ensure accurate data submission and proper user accesibility. With the 'for' and 'id' user can focus on the right field, and the name attribute is for the server to recognize values correctly. Placeholders are give users hints about what information they must type in each field; these feature and 'autocomplete' make the form more user friendly. 
 
 All input fields in the form have 'types' to improve validation. For example, 'type=number' is used for the age field to ensure the browser accepts only numeric values, no texts; this way we can avoid data errors and user experience is better.
+
+If this project were a live production form, I would add server-side validation, input sanitization. HTTPS encryption, and error loging to protect data beyond client side validation. The main goal is to guarantee the integrity, confidentiality and reliability of data, and also guarantee a friendly user experience, all while we prevent errors and vulnerabilities.
