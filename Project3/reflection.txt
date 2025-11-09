@@ -16,6 +16,8 @@ I modified the CSS file (styles.css) to ensure that input fields fit inside the 
 
 I used the ':invalid' and ':valid' selectors to give the form a red border (if input do not meet requirements) or green border (if input meet requirements). Then, I modified the ':invalid' selector rules by adding ':not(:Placeholder-shown); this rule prevents fields form showing red borders at the beginning, and only alert users after typing info to prevent and avoid confusion. 
 
+Previously, I had added an event listener to display an alert in the browser when user enter more than 10 words in the textarea field; howerver, it seemed to me a better user experience to see that message directly inside the form. For that reason, I decided to discard the alert and instead, I used a paragraph element (<p></p>) inside the form; here the function changes the <p> text and send a message using 'setCustomValidity()' JavaScript method.
+
 I have added a 'fieldset' and 'legend' to provide better appeareance and structure, and improve accesibility. This way the form is easy to read and understand, and in general, it looks more professional. 
 
 If this project were a live production form, I would add server-side validation, input sanitization. HTTPS encryption, and error loging to protect data beyond client side validation. The main goal is to guarantee the integrity, confidentiality and reliability of data, and also guarantee a friendly user experience, all while we prevent errors and vulnerabilities.
