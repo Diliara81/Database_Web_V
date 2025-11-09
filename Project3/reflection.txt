@@ -14,5 +14,7 @@ All input fields in the form have 'types' to improve validation. For example, 't
 
 I modified the CSS file (styles.css) to ensure that input fields fit inside the form container; this improves the visual user experience.
 
+I have added a 'fieldset' and 'legend' to provide better appeareance and structure, and improve accesibility. This way the form is easy to read and understand, and in general, it looks more professional. 
+
 If this project were a live production form, I would add server-side validation, input sanitization. HTTPS encryption, and error loging to protect data beyond client side validation. The main goal is to guarantee the integrity, confidentiality and reliability of data, and also guarantee a friendly user experience, all while we prevent errors and vulnerabilities.
 
