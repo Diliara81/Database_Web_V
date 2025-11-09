@@ -1,3 +1,13 @@
+###############################################################################################################
+
+Project 3: Reflections
+Name: Gretchen Albornoz
+
+I decided to write this reflection as I worked on the project, not after finishing it because I wanted to keep track of every step I took, what I changed, and why I made it. I updated the HTML, CSS, and JavaScript files, and I wrote down my thoughts at the same time, so it feels more like my real process than a summary. I also wanted to make my commits along the way, pushing each update to keep everything the most as organized as possible and also connected with what I was explaining. This way was easier for me to stay clear about what I was doing and why. 
+
+################################################################################################################
+
+
 The form had the DELETE method, and this method is not supported by html forms; therefore, I changed the DELETE method to POST method, which is recognized by browsers and it also sendsinformation securely through the request body instead of the URL (GET method).
 
 The password field was hidden using the class ".hidden-password", so it was not visible but still present in the page, so this is not really secure. I fixed by adding "type=pasword", that way users can see the password field and their input is marked when typing. I also added the "required" attribute to make sure the password field is not empty.
